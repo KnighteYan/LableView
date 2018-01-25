@@ -14,9 +14,9 @@ public class HomeFragment extends Fragment {
       @Nullable Bundle savedInstanceState) {
     View view = null;
     if (view == null) {
-      view = inflater.inflate(R.layout.alipay_layout, container, false);
+      view = inflater.inflate(R.layout.alipay_layout, container, false);    //初始化
     } else {
-
+      //事件响应
     }
     return view;
   }
